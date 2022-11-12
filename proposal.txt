@@ -9,3 +9,88 @@ Intial Ideas and thoughts to excute:
   *Create Esports Stats for teams
   *Feature: Play-off Pick'ems
   *Feature: Fantasy Draft
+
+  Lock-ins:
+  Issue: Currently team capatins are expected to tag a T.O in a discord channel with who is playing in their match the following day to allow teams time to prepare. The T.Os 
+  then have to update a public google sheet at a late hour. 
+  Feature should:
+  *asaign roles to allow a team captain to only change his teams roster
+  * update an object with information given to it by user input
+  * Identitfy the time and release information at a pre - determined time with team lock in information
+  * information can be released into a web page, update to a google spreedsheet, or into a discord channel
+
+  Possible routes:
+  Create an MVC project with Entity Authentication 
+  Create a Raect app with Firebase
+  Discord bot? 
+
+  Need to learn:
+  *Asaign user roles(player, captain, adminstraitor) 
+  * Auto updates to change an object at pre determined time
+
+
+Create Esports Stats for team:
+issue: Our stats are being tracked on a google spreedsheet. It doesn't give us space for cool images or manipulation of a dom to create unique player profiles or account for mutiple seasons of stats
+
+Feature Should: 
+*Hold data for mutiple seasons
+*Have a break down by seasons
+    -unique champions
+    -KDA
+    -teams played on
+*Easy ways to querry the data for teams or indvidual players (Many to Many?)
+*Custom CSS to appeal to players
+*allow adminstraitor to input more data as seasons are played
+
+Possible routes: 
+MVC project with Many to Many SQL database.
+React with Firebase (Would this be a lot of hard coded data?) 
+React with SQL database
+
+Need to learn:
+*Custom hooks to query search and manipulated pulled date from SQL database in React
+*Best format on Many to Many relationships
+
+Play-Offs Pickems:
+Issue: None but it would be cool to emmulate the worlds experiece where players can try to predict many factors of the competitive season. 
+
+Feature should:
+Have mutiple selection boxes for questions
+  *Who will win matches
+  *Most played
+  *Most banned
+  *Baron steals
+  *Penta kill #/champions
+Should lock after a certain Date and time
+Should Update as the play offs progress and award points
+*strectch goal: Leaderboard
+
+Possible Routes:
+*MVC doesn't seem as nessary
+*object orentiated programming with simple if User.Input = Playoffs.Result, User.Score + Score
+*React with Firebase
+
+Need to learn:
+Closing a feature such as a form or edit at a certain date and time
+Creating a list of users and filtering by User.Score 
+
+
+Feature: Fantasy Draft
+Issue: No Issue but it would be cool if players could be drafted similar to fantasy football. 
+
+Feature should:
+*Allow users to draft from active players in a season
+*Open draft incident and then closer once teams are done
+*Update a players score for a week depending on their stats in the previous feature
+*Randomize a fantasy league schedule based off users in a instance
+*Keep score and update based off time and date features
+*Allow users to trade players after the draft has happend or trade with none drafted players
+
+Possible Routes:
+React with MYSQL seems the most likey as it build off a previous features.
+
+Need to learn:
+*Date and time features to lock features
+*Create obejects of Users, Teams, Schedule, and Season scores to player scores
+
+  
