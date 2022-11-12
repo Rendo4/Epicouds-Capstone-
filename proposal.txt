@@ -1,0 +1,11 @@
+Intial Ideas and thoughts to excute:
+ I began by watching a series of youtube videos. Here is one that I found particularly helpful in identifying the struggles of intially planning as a beginner:
+ https://www.youtube.com/watch?v=0nUHIFF_xAg
+
+
+ My desire is to create something useful for me esports tournament and production buisness to automate processes for me. With that these are the issues i'm facing and if I can solve
+ either in this capstone presentation or later I can build upon. 
+  *Automate Lock-in procedure
+  *Create Esports Stats for teams
+  *Feature: Play-off Pick'ems
+  *Feature: Fantasy Draft
