@@ -93,4 +93,5 @@ Need to learn:
 *Date and time features to lock features
 *Create obejects of Users, Teams, Schedule, and Season scores to player scores
 
-  
+
+What it should look like:
